@@ -1,0 +1,25 @@
+competency,level,label,descriptor
+C1,1,Novice,States that pressure produces a voltage without naming the intermediate steps.
+C1,2,Developing,Names deflection and stress but cannot connect stress to resistance change.
+C1,3,Proficient,Traces the full chain from pressure to bridge output with correct signs.
+C1,4,Advanced,Traces the chain and explains why the two bridge arms respond with opposite sign.
+C2,1,Novice,Produces a mesh with no control over element size.
+C2,2,Developing,Sets a characteristic length but does not check element quality.
+C2,3,Proficient,Builds parametric geometry with named physical groups and a controlled mesh.
+C2,4,Advanced,Justifies the mesh size against the quantity of interest and the cost budget.
+C3,1,Novice,Runs a solver with default settings and unclear boundary conditions.
+C3,2,Developing,Applies a load but the clamped condition is incomplete.
+C3,3,Proficient,Imposes both clamped conditions and the uniform load correctly and extracts the field.
+C3,4,Advanced,Explains the effect of each boundary condition on the solution and checks it.
+C4,1,Novice,Accepts a single result with no convergence or validation check.
+C4,2,Developing,Runs more than one mesh but does not quantify error or compare to theory.
+C4,3,Proficient,Performs a convergence study and quantifies error against the analytical solution.
+C4,4,Advanced,Distinguishes displacement from stress convergence and selects a mesh to a stated tolerance.
+C5,1,Novice,Reports raw field values without converting them to a figure of merit.
+C5,2,Developing,Computes sensitivity but does not question the result.
+C5,3,Proficient,Extracts sensitivity correctly and states the assumptions behind it.
+C5,4,Advanced,Critiques the figure of merit against the model's validity limits.
+C6,1,Novice,Changes parameters without reference to the specification.
+C6,2,Developing,Meets one constraint while violating the other.
+C6,3,Proficient,Produces a design that meets the combined specification.
+C6,4,Advanced,Meets the specification and identifies which constraint binds and why.

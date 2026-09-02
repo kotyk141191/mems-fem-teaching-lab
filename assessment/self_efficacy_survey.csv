@@ -1,0 +1,7 @@
+item,competency,statement,scale
+S1,C1,I can explain how applied pressure becomes a sensor output voltage.,1-5 Likert
+S2,C2,I can build a parametric diaphragm geometry and generate a controlled mesh.,1-5 Likert
+S3,C3,I can set up and run a finite-element simulation with the correct boundary conditions.,1-5 Likert
+S4,C4,I can verify a simulation by mesh convergence and validate it against theory.,1-5 Likert
+S5,C5,I can interpret a computed stress field to obtain a device figure of merit.,1-5 Likert
+S6,C6,I can design a diaphragm that meets a given performance specification.,1-5 Likert

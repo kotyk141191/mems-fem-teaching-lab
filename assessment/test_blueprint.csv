@@ -1,0 +1,8 @@
+item,competency,bloom_level,format,max_points
+Q1,C1,Understand,Short answer: describe the transduction chain,10
+Q2,C1,Understand,Multiple choice: where does peak stress occur,5
+Q3,C2,Apply,Task: parameters that define the mesh and groups,15
+Q4,C3,Apply,Task: state correct BCs and load for the diaphragm,15
+Q5,C4,Analyse,"Problem: given data, quantify convergence error",20
+Q6,C5,Evaluate,Problem: derive sensitivity from an edge stress,20
+Q7,C6,Create,Open: propose a design meeting a target sensitivity,15

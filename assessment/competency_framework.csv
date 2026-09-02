@@ -1,0 +1,7 @@
+id,competency,bloom_level,descriptor,lab
+C1,Explain MEMS transduction and thin-plate mechanics of the diaphragm,Understand,Domain knowledge,1
+C2,Construct parametric geometry and generate a quality mesh (GMSH),Apply,Model preparation,1
+C3,Configure and execute an FEM simulation with correct BCs and loads,Apply,Simulation execution,2
+C4,"Verify and validate: convergence, comparison to theory, error quantification",Analyse,Verification & validation,3
+C5,Interpret fields to extract figures of merit and critique them,Evaluate,Result interpretation,4
+C6,Design and optimise a diaphragm to meet a specification,Create,Design synthesis,4
