@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: Open-source MEMS finite-element teaching laboratory
+message: If you use these materials, please cite both the software and the paper.
+type: software
+authors:
+  - family-names: Kotyk
+    given-names: Mykhailo
+    email: mykhaylo.kotyk@pnu.edu.ua
+    affiliation: >-
+      Department of Computer Engineering and Electronics,
+      Vasyl Stefanyk Precarpathian National University, Ivano-Frankivsk, Ukraine
+    orcid: https://orcid.org/0000-0000-0000-0000
+repository-code: https://github.com/OWNER/mems-fem-teaching-lab
+license: MIT
+version: 1.0.0
+date-released: 2026-09-02
+keywords:
+  - MEMS
+  - finite element method
+  - engineering education
+  - open-source software
+  - competency-based assessment
+  - piezoresistive pressure sensor
+preferred-citation:
+  type: article
+  title: >-
+    Free and open-source MEMS simulation tools in engineering education:
+    a competency-based laboratory sequence using GMSH, Elmer FEM and Jupyter notebooks
+  authors:
+    - family-names: Kotyk
+      given-names: Mykhailo
+  journal: Informatyka, Automatyka, Pomiary w Gospodarce i Ochronie Srodowiska
+  year: 2026
