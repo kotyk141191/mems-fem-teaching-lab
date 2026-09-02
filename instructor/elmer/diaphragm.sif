@@ -1,0 +1,63 @@
+! Elmer FEM solver input for the clamped square silicon diaphragm.
+! Reference design: a = 1000 um, h = 20 um, q = 100 kPa.
+! Run:  ElmerGrid 14 2 diaphragm.msh -autoclean && ElmerSolver diaphragm.sif
+
+Header
+  Mesh DB "." "diaphragm"
+End
+
+Simulation
+  Coordinate System = Cartesian 3D
+  Simulation Type = Steady State
+  Steady State Max Iterations = 1
+  Output Intervals = 1
+  Post File = "diaphragm.vtu"
+End
+
+Constants
+End
+
+Body 1
+  Equation = 1
+  Material = 1
+End
+
+Material 1
+  Name = "Silicon (isotropic approximation)"
+  Youngs Modulus = 169.0e9
+  Poisson Ratio = 0.28
+  Density = 2330.0
+End
+
+Equation 1
+  Active Solvers(1) = 1
+End
+
+Solver 1
+  Equation = "Linear elasticity"
+  Procedure = "StressSolve" "StressSolver"
+  Variable = -dofs 3 Displacement
+  Calculate Stresses = True
+  Linear System Solver = Iterative
+  Linear System Iterative Method = BiCGStab
+  Linear System Preconditioning = ILU1
+  Linear System Max Iterations = 1000
+  Linear System Convergence Tolerance = 1.0e-9
+  Steady State Convergence Tolerance = 1.0e-6
+End
+
+! Clamped edges: all four side faces fully fixed (w = 0 and dw/dn = 0).
+Boundary Condition 1
+  Name = "clamped edges"
+  Target Boundaries(4) = 1 2 3 4
+  Displacement 1 = 0.0
+  Displacement 2 = 0.0
+  Displacement 3 = 0.0
+End
+
+! Uniform pressure on the top face. Elmer takes a normal-directed traction.
+Boundary Condition 2
+  Name = "uniform pressure"
+  Target Boundaries(1) = 6
+  Normal Force = 100.0e3
+End
