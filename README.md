@@ -141,7 +141,7 @@ Dual, by directory:
 See `CITATION.cff`, or use the "Cite this repository" button on GitHub.
 
 **Mykhailo Kotyk** — Department of Computer Engineering and Electronics,
-Vasyl Stefanyk Precarpathian National University, Ivano-Frankivsk, Ukraine
+Vasyl Stefanyk Carpathian National University, Ivano-Frankivsk, Ukraine
 [ORCID 0000-0001-6149-0734](https://orcid.org/0000-0001-6149-0734)
 
 ## Acknowledgements

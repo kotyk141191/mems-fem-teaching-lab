@@ -8,12 +8,12 @@ authors:
     email: mykhaylo.kotyk@pnu.edu.ua
     affiliation: >-
       Department of Computer Engineering and Electronics,
-      Vasyl Stefanyk Precarpathian National University, Ivano-Frankivsk, Ukraine
+      Vasyl Stefanyk Carpathian National University, Ivano-Frankivsk, Ukraine
     orcid: https://orcid.org/0000-0001-6149-0734
 repository-code: https://github.com/kotyk141191/mems-fem-teaching-lab
 license: MIT
 version: 1.0.0
-date-released: 2026-09-02
+date-released: 2026-09-10
 keywords:
   - MEMS
   - finite element method
