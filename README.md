@@ -1,5 +1,8 @@
 # Open-source MEMS finite-element teaching laboratory
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22693932.svg)](https://doi.org/10.5281/zenodo.22693932)
+[![tests](https://github.com/kotyk141191/mems-fem-teaching-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/kotyk141191/mems-fem-teaching-lab/actions/workflows/ci.yml)
+
 A competency-based laboratory sequence that teaches finite-element simulation of
 microelectromechanical systems on an entirely free toolchain: **GMSH** for
 parametric geometry and meshing, **Elmer FEM** for the three-dimensional
@@ -139,6 +142,9 @@ Dual, by directory:
 ## Citing
 
 See `CITATION.cff`, or use the "Cite this repository" button on GitHub.
+
+Archived on Zenodo: [10.5281/zenodo.22693932](https://doi.org/10.5281/zenodo.22693932) (concept DOI, always the latest version). The release accompanying the paper is
+v1.0.2, [10.5281/zenodo.22693933](https://doi.org/10.5281/zenodo.22693933).
 
 **Mykhailo Kotyk** — Department of Computer Engineering and Electronics,
 Vasyl Stefanyk Carpathian National University, Ivano-Frankivsk, Ukraine
