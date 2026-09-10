@@ -30,4 +30,4 @@ Full text: https://creativecommons.org/licenses/by/4.0/legalcode
 ## Suggested attribution
 
 > Kotyk, M. (2026). *Open-source MEMS finite-element teaching laboratory.*
-> Licensed CC BY 4.0. https://github.com/OWNER/mems-fem-teaching-lab
+> Licensed CC BY 4.0. https://github.com/kotyk141191/mems-fem-teaching-lab

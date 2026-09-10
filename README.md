@@ -28,7 +28,7 @@ engineering education* (submitted, 2026).
 ## Install
 
 ```bash
-git clone https://github.com/OWNER/mems-fem-teaching-lab.git
+git clone https://github.com/kotyk141191/mems-fem-teaching-lab.git
 cd mems-fem-teaching-lab
 pip install -e ".[notebooks,dev]"
 ```
